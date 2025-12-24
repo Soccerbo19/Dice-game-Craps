@@ -42,7 +42,6 @@ def play_game(player_number):
                 print("You lose! You rolled a 7 before matching your point.")
                 return False
 
-# 🔁 PLAY AGAIN LOOP
 while True:
     play = input("\nDo you want to play? (yes/no): ").lower()
 
@@ -53,4 +52,5 @@ while True:
     players = int(input("How many players are playing? "))
 
     for player in range(1, players + 1):
+
         play_game(player)
